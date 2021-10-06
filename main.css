@@ -1,0 +1,182 @@
+body {
+  margin: 0;
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: top/contain repeat url(./../assets/pattern.png) #004550;
+  min-height: 100vh;
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+  box-sizing: border-box;
+}
+
+@media only screen and (max-width: 700px) {
+  body {
+    margin-bottom: 1rem;
+  }
+}
+
+.wrapper {
+  max-width: 1920px;
+  width: 100%;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  padding: 0 18%;
+}
+
+@media only screen and (max-width: 1300px) {
+  main {
+    padding: 0 6%;
+  }
+}
+
+header {
+  width: 100%;
+}
+
+.header-block {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 4%;
+  flex-wrap: nowrap;
+  margin-bottom: 2.2rem;
+  font-size: 2.6rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #00E296;
+}
+
+@media only screen and (max-width: 1300px) {
+  .header-block {
+    font-size: 1.8rem;
+    padding: 0 2%;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .header-block {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+  }
+}
+
+@media only screen and (max-width: 1600px) {
+  .text-block:nth-last-child(-n + 2) {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  .text-block:nth-last-child(-n + 4) {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .text-block:nth-last-child(-n + 6) {
+    display: none;
+  }
+}
+
+.number-block {
+  color: #93EA20;
+}
+
+.video-block {
+  margin-bottom: 1.2rem;
+  padding-bottom: 56.25%;
+  /* 16:9 */
+  position: relative;
+  height: 0;
+}
+
+.video-block iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.buttons-block {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.8rem 0;
+  align-items: center;
+  background: center/contain no-repeat url(./../assets/Veeam_radio_logo.svg);
+  margin-bottom: 28px;
+}
+
+@media only screen and (max-width: 1300px) {
+  .buttons-block {
+    padding: 1.2rem 0;
+  }
+}
+
+@media only screen and (max-width: 780px) {
+  .buttons-block {
+    padding: 1rem 0;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .buttons-block {
+    flex-direction: column;
+    height: 12rem;
+    background-size: 140px;
+  }
+}
+
+.button {
+  width: 382px;
+  width: 25%;
+  padding: 2.5%;
+  background-color: #00E296;
+  color: #004550;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  cursor: pointer;
+  white-space: nowrap;
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+
+.button:hover {
+  filter: brightness(90%);
+}
+
+.button:active {
+  filter: brightness(80%);
+}
+
+@media only screen and (max-width: 1300px) {
+  .button {
+    font-size: 1.2rem;
+  }
+}
+
+@media only screen and (max-width: 780px) {
+  .button {
+    font-size: 1rem;
+    width: 25%;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .button {
+    width: 100%;
+  }
+}
+
+.chat-block {
+  width: 100%;
+  height: 678px;
+  background-color: #fff;
+  opacity: 0.1;
+}
