@@ -4,7 +4,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: top/contain repeat url(./../assets/pattern.png) #004550;
+  background: top/contain repeat url(./assets/pattern.png) #004550;
   min-height: 100vh;
   font-family: "Roboto", sans-serif;
   color: #fff;
@@ -107,7 +107,7 @@ header {
   justify-content: space-between;
   padding: 1.8rem 0;
   align-items: center;
-  background: center/contain no-repeat url(./../assets/Veeam_radio_logo.svg);
+  background: center/contain no-repeat url(./assets/Veeam_radio_logo.svg);
   margin-bottom: 28px;
 }
 
