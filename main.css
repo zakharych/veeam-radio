@@ -11,6 +11,12 @@ body {
   color: #fff;
 }
 
+@media only screen and (max-width: 1300px) {
+  body {
+    margin-top: 0.6rem;
+  }
+}
+
 @media only screen and (max-width: 700px) {
   body {
     margin-top: 0.4rem;
@@ -30,7 +36,7 @@ main {
 
 @media only screen and (max-width: 1300px) {
   main {
-    padding: 0 15%;
+    padding: 0 20%;
   }
 }
 
@@ -55,6 +61,7 @@ header {
   .header-block {
     font-size: 1.4rem;
     padding: 0 2%;
+    margin-bottom: 0.8rem;
   }
 }
 
@@ -253,6 +260,12 @@ header {
   height: 678px;
   background-color: #004550;
   filter: brightness(90%);
+  margin-bottom: 2rem;
+}
+
+.chatbro {
+  width: 100%;
+  height: 300px;
   margin-bottom: 2rem;
 }
 
