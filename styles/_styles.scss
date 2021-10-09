@@ -100,11 +100,10 @@ header {
   margin-bottom: 28px;
 
   @media only screen and (max-width: 1300px) {
-    padding: 1.2rem 0;
+    padding: 0.8rem 0;
+    margin-bottom: 1rem;
   }
-  @media only screen and (max-width: 780px) {
-    padding: 1rem 0;
-  }
+
 
   @media only screen and (max-width: 650px) {
     flex-direction: column;
@@ -230,7 +229,6 @@ header {
 
   margin-bottom: 2rem;
 }
-
 
 .girl-block {
   height: 24rem;
