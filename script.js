@@ -7,9 +7,11 @@ document.addEventListener("click", (event) => {
   if (target) {
     if (tipBlock.classList.contains("open") && !target.closest(".tip-block")) {
       tipBlock.classList.toggle("open");
+      return;
     }
     if (event.target === openBtn || event.target === closeElem) {
       tipBlock.classList.toggle("open");
+      return;
     }
   }
 });
