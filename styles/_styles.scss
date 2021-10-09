@@ -1,14 +1,18 @@
+html {
+
+  // font-size: 14px;
+}
 body {
   margin: 0;
-  margin-top: 1.5rem;
+  margin-top: 1.2rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   background: top / contain repeat url(./assets/pattern.png) $secondary;
   min-height: 100vh;
   font-family: "Roboto", sans-serif;
-  color: #fff;
   box-sizing: border-box;
+  color: #fff;
   @media only screen and (max-width: 700px) {
     margin-top: 0.4rem;
   }
@@ -20,9 +24,9 @@ body {
 main {
   display: flex;
   flex-direction: column;
-  padding: 0 18%;
+  padding: 0 22%;
   @media only screen and (max-width: 1300px) {
-    padding: 0 9%;
+    padding: 0 15%;
   }
 }
 header {
@@ -34,13 +38,14 @@ header {
   justify-content: space-between;
   padding: 0 4%;
   flex-wrap: nowrap;
-  margin-bottom: 2.2rem;
-  font-size: 2.6rem;
+  margin-bottom: 1.8rem;
+  font-size: 1.6rem;
   text-transform: uppercase;
   font-weight: bold;
   color: $tertiary;
+
   @media only screen and (max-width: 1300px) {
-    font-size: 1.8rem;
+    font-size: 1.4rem;
     padding: 0 2%;
   }
   @media only screen and (max-width: 700px) {
@@ -56,9 +61,9 @@ header {
     }
   }
   @media only screen and (max-width: 1300px) {
-    &:nth-last-child(-n + 4) {
-      display: none;
-    }
+    // &:nth-last-child(-n + 4) {
+    //   display: none;
+    // }
   }
   @media only screen and (max-width: 700px) {
     &:nth-last-child(-n + 6) {
@@ -87,7 +92,7 @@ header {
 .buttons-block {
   display: flex;
   justify-content: space-between;
-  padding: 1.8rem 0;
+  padding: 1.2rem 0;
   align-items: center;
   background: center/contain no-repeat url(./assets/Veeam_radio_logo.svg);
   margin-bottom: 28px;
@@ -108,8 +113,8 @@ header {
 
 .button {
   width: 382px;
-  width: 25%;
-  padding: 2.5%;
+  width: 20%;
+  padding: 2%;
   background-color: $tertiary;
   color: $secondary;
   display: flex;
@@ -119,7 +124,7 @@ header {
   cursor: pointer;
   white-space: nowrap;
   font-weight: 900;
-  font-size: 1.5rem;
+  font-size: 1.1rem;
   &:hover {
     filter: brightness(90%);
   }
@@ -128,10 +133,11 @@ header {
   }
 
   @media only screen and (max-width: 1300px) {
-    font-size: 1.2rem;
+    width: 25%;
+    font-size: 0.9rem;
   }
   @media only screen and (max-width: 780px) {
-    font-size: 1rem;
+    font-size: 0.7rem;
     width: 25%;
   }
   @media only screen and (max-width: 650px) {
@@ -147,12 +153,13 @@ header {
   margin-bottom: 2rem;
 }
 .girl-block {
-  height: 39rem;
+  height: 24rem;
   background: center bottom/ contain no-repeat url(./assets/veeam_girl.svg);
   @media only screen and (max-width: 1300px) {
-    height: 18rem;
+    height: 16rem;
   }
   @media only screen and (max-width: 700px) {
     height: 8rem;
+    
   }
 }
