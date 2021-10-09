@@ -13,7 +13,7 @@ body {
 
 @media only screen and (max-width: 1300px) {
   body {
-    margin-top: 0.6rem;
+    margin-top: 0.4rem;
   }
 }
 
@@ -61,7 +61,7 @@ header {
   .header-block {
     font-size: 1.4rem;
     padding: 0 2%;
-    margin-bottom: 0.8rem;
+    margin-bottom: 0.6rem;
   }
 }
 
@@ -89,7 +89,7 @@ header {
 }
 
 .video-block {
-  margin-bottom: 1.2rem;
+  margin-bottom: 1rem;
   padding-bottom: 56.25%;
   /* 16:9 */
   position: relative;
