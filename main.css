@@ -4,7 +4,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: top/contain repeat url(./assets/pattern.png) #004550;
+  background: top/contain repeat url(https://it-events.com/system/attachments/files/000/002/232/original/pattern.png) #004550;
   min-height: 100vh;
   font-family: "Roboto", sans-serif;
   box-sizing: border-box;
@@ -116,7 +116,7 @@ header {
   justify-content: space-between;
   padding: 1.2rem 0;
   align-items: center;
-  background: center/contain no-repeat url(./assets/Veeam_radio_logo.svg);
+  background: center/contain no-repeat url(https://it-events.com/system/attachments/files/000/002/231/original/Veeam_radio_logo_.svg);
   margin-bottom: 28px;
 }
 
@@ -232,7 +232,7 @@ header {
 .close-elem {
   position: absolute;
   content: "";
-  background: center/contain url(./assets/close.svg);
+  background: center/contain url(https://it-events.com/system/attachments/files/000/002/229/original/close_.svg);
   cursor: pointer;
   height: 2rem;
   width: 2rem;
@@ -271,7 +271,7 @@ header {
 
 .girl-block {
   height: 24rem;
-  background: center bottom/contain no-repeat url(./assets/veeam_girl.svg);
+  background: center bottom/contain no-repeat url(https://it-events.com/system/attachments/files/000/002/230/original/veeam_girl_.svg);
 }
 
 @media only screen and (max-width: 1300px) {
